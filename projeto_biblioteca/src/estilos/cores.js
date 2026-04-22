@@ -1,0 +1,20 @@
+export const cores = {
+  azulEscuro: '#1a3a5c',
+  azulMedio: '#2563a8',
+  azulClaro: '#4a90d9',
+  azulPalido: '#dbeafe',
+  azulSuave: '#eff6ff',
+  amareloForte: '#f5c518',
+  amareloClaro: '#fde68a',
+  amareloPalido: '#fef9e7',
+  branco: '#ffffff',
+  brancoQuente: '#f8f9fa',
+  cinzaClaro: '#e9ecef',
+  cinzaMedio: '#6c757d',
+  cinzaEscuro: '#343a40',
+  vermelho: '#dc3545',
+  vermelhoClaro: '#f8d7da',
+  verde: '#198754',
+  verdeClaro: '#d1e7dd',
+};
+ 

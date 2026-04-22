@@ -1,0 +1,100 @@
+import { cores } from './cores';
+
+export const estilos = {
+  pagina: {
+    minHeight: '100vh',
+    background: `linear-gradient(135deg, ${cores.azulSuave} 0%, ${cores.branco} 50%, ${cores.amareloPalido} 100%)`,
+    fontFamily: "'Lora', Georgia, serif",
+  },
+  header: {
+    background: `linear-gradient(90deg, ${cores.azulEscuro} 0%, ${cores.azulMedio} 100%)`,
+    color: cores.branco,
+    padding: '0',
+    boxShadow: '0 2px 12px rgba(26,58,92,0.18)',
+  },
+  headerInner: {
+    maxWidth: 1200,
+    margin: '0 auto',
+    padding: '18px 32px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 16,
+  },
+  logo: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: 12,
+  },
+  logoTexto: {
+    fontSize: 26,
+    fontWeight: 700,
+    letterSpacing: 1,
+    color: cores.branco,
+    fontFamily: "'Playfair Display', Georgia, serif",
+  },
+  logoSub: {
+    fontSize: 11,
+    color: cores.amareloClaro,
+    letterSpacing: 2,
+    textTransform: 'uppercase',
+    fontFamily: "'Lora', serif",
+  },
+  btn: {
+    padding: '9px 22px',
+    borderRadius: 8,
+    border: 'none',
+    cursor: 'pointer',
+    fontWeight: 600,
+    fontSize: 14,
+    transition: 'all 0.18s',
+    fontFamily: "'Lora', serif",
+  },
+  btnPrimario: {
+    background: cores.azulMedio,
+    color: cores.branco,
+  },
+  btnSecundario: {
+    background: cores.amareloForte,
+    color: cores.azulEscuro,
+  },
+  btnPerigo: {
+    background: cores.vermelho,
+    color: cores.branco,
+  },
+  btnOutline: {
+    background: 'transparent',
+    color: cores.azulMedio,
+    border: `1.5px solid ${cores.azulMedio}`,
+  },
+  card: {
+    background: cores.branco,
+    borderRadius: 14,
+    boxShadow: '0 2px 16px rgba(26,58,92,0.09)',
+    overflow: 'hidden',
+  },
+  input: {
+    padding: '9px 14px',
+    borderRadius: 8,
+    border: `1.5px solid ${cores.cinzaClaro}`,
+    fontSize: 14,
+    fontFamily: "'Lora', serif",
+    outline: 'none',
+    transition: 'border 0.15s',
+    background: cores.branco,
+  },
+  label: {
+    fontSize: 13,
+    color: cores.azulEscuro,
+    fontWeight: 600,
+    marginBottom: 4,
+    display: 'block',
+  },
+  badge: {
+    display: 'inline-block',
+    padding: '3px 10px',
+    borderRadius: 20,
+    fontSize: 12,
+    fontWeight: 600,
+  },
+};
